@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>SURVEY FORM</h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" title="Enter your full name" />
+        </div>
+        <div>
+          <label for="mail">Email</label>
+          <input type="text" id="mail" title="Enter your Email ID" />
+        </div>
+        <div>
+          <label for="contact">Phone Number</label>
+          <input type="text" id="contact" title="Enter your whatsapp contact" />
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input type="text" id="age" title="Enter your age in numbers" />
+        </div>
+        <div>
+          <label for="Address">Address</label>
+          <textarea name="Address" title="Enter your address"></textarea>
+        </div>
+        <div>
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender">
+            <option value="choose one" selected>Choose One</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div>
+          <label for="Occupation">Occupation</label>
+          <select name="Occupation" id="Occupation">
+            <option value="choose one" selected>Choose One</option>
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="self-employed">Self-employed</option>
+            <option value="unemployed">Unemployed</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Preferences</legend>
+        <div>
+          <label for="hobbies">Favorite Hobbies</label>
+          <select name="hobbies" id="hobbies">
+            <option value="choose one" selected>Choose One</option>
+            <option value="Reading">Reading</option>
+            <option value="Travelling">Travelling</option>
+            <option value="Sports">Sports</option>
+            <option value="Painting">Painting</option>
+          </select>
+        </div>
+        <div>
+          <label for="food">Favorite Cuisine</label>
+          <select name="food" id="food">
+            <option value="choose one" selected>Choose One</option>
+            <optgroup label="Indian">
+              <option value="North Indian">North Indian</option>
+              <option value="South Indian">South Indian</option>
+              <option value="East Indian">East Indian</option>
+              <option value="West Indian">West Indian</option>
+            </optgroup>
+            <option value="Italian">Italian</option>
+            <optgroup label="Korean">
+              <option value="South Korean">South Korean</option>
+              <option value="North Korean">North Korean</option>
+            </optgroup>
+            <option value="Chinese">Chinese</option>
+            <option value="American">American</option>
+            <option value="Mexican">Mexican</option>
+          </select>
+        </div>
+        <div>
+          <label for="exercise">How often do you exercise?</label>
+          <input list="exercise" />
+          <datalist id="exercise">
+            <option value="Daily"></option>
+            <option value="Weekly"></option>
+            <option value="Rarely"></option>
+            <option value="Never"></option>
+          </datalist>
+        </div>
+        <div>
+          <label for="Entertainment">Preferred Mode of Entertainment</label>
+          <input list="Entertainment" />
+          <datalist id="Entertainment">
+            <option value="Music"></option>
+            <option value="Movies"></option>
+            <option value="Books"></option>
+            <option value="TVshows"></option>
+          </datalist>
+        </div>
+        <div>
+          <label for="screentime">Social Media Usage</label>
+          <select name="screentime" id="screentime">
+            <option value="choose one" selected>Choose One</option>
+            <option value="Very Active">Very Active</option>
+            <option value="Moderate">Moderate</option>
+            <option value="Rare">Rare</option>
+            <option value="Never">Never</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset >
+        <legend>Feedback</legend>
+        <div>
+          <label for="rating">Rate our services</label>
+          <select name="rating" id="rating">
+            <option value="Rate" selected>Rate</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div>
+          <label for="recommend">Would you recommend us to others?</label>
+          <select name="recommend" id="recommend">
+            <option value="choose one" selected>Choose One</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div>
+          <label for="suggest">What improvements would you suggest?</label>
+          <textarea name="suggest"></textarea>
+        </div>
+        <div>
+          <label for="comments">Additional comments</label>
+          <textarea name="comments"></textarea>
+        </div>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-image: url(./Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+    padding: 20px 0 20px 0;
+}
+
+h1{
+font-size: 2.5rem;
+margin: 0;
+}
+
+form{
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 2.2;
+}
+
+form label{
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+}
+
+form legend{
+    text-align: center;
+    font-size: 2rem;
+}
+
+form fieldset{
+    background-color: aqua;
+    width: 500px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form select,datalist,textarea,input{
+    width: 200px;
+    margin-left: 50px;
+    font-size: 1.1rem;
+}
+
+form button{
+    transition-duration: 0.4s;
+    background-color: skyblue;
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+  
+form button:hover {
+    background-color: green;
+    color: white;
+  }
